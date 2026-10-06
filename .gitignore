@@ -176,3 +176,27 @@ outputs/
 *.urdf
 *.xml
 *.part
+
+### ===== jugak local ===== ###
+# 모델 가중치 / 체크포인트
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+checkpoints/
+
+# 녹화 영상 / 데이터셋
+*.mp4
+*.avi
+*.mkv
+datasets/
+
+# 토큰·키
+*.token
+.hf_token
+secrets/
+
+# 개인 메모·임시 작업
+scratch/
+*.ipynb
